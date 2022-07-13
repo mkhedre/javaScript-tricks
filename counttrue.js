@@ -5,25 +5,7 @@
 const countTrue = (r) => r.filter(Boolean).length;
 
 console.log(countTrue([true, false, false, true, false]));
-console.log(
-  countTrue([
-    false,
-    false,
-    true,
-    true,
-    false,
-    false,
-    false,
-    true,
-    true,
-    true,
-    true,
-    false,
-    true,
-    true,
-    false,
-  ])
-);
+
 // The filter(Boolean) step does the following:
 
 // Passes each item in the array to the Boolean() object
