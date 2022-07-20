@@ -1,6 +1,5 @@
 function shiftToRight(x, y) {
+  return Math.floor(x / 2 ** y);
   // right shift
-  return x / 2 ** y;
 }
-shiftToRight(80, 3);
-console.log(shiftToRight(80, 3));
+console.log(shiftToRight(-5, 1));
