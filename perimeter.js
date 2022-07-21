@@ -8,3 +8,4 @@ const perimeter0 = (l, num) => (l === 's' ? 4 * num : 6.28 * num);
 const perimeter = (l, num) => {
   return (4 * (l == 's') + 6.28 * (l == 'c')) * num;
 };
+let perimeter2 = (l, n) => (l == 's' && n * 4) || n * 6.28;
