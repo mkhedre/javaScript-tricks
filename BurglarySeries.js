@@ -5,4 +5,5 @@ function addName(obj, name, value) {
 function addNAme2(obj, name, value) {
   return { ...obj, [name]: value };
 }
-console.log(addName({ piano: 500 }, 'Brutus', 300));
+const addName3 = (obj, name, value) => ((obj[name] = value), obj);
+console.log(addName3({ piano: 500 }, 'Brutus', 300));
