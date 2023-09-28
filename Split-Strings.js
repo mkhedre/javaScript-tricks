@@ -10,4 +10,15 @@ function solution(str) {
   return str.split(/(?=(?:..)*$)/);
 }
 
-console.log(solution('abc')); // should return ['ab', 'c_']
+// console.log(solution('abc')); // should return ['ab', 'c_']
+
+// capitalice first letter of each word
+// remove all  spaces from string
+function Camel(text) {
+  //your code here
+  return text
+    .split(' ')
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join('');
+}
+console.log(Camel('camel case method')); // should return 'CamelCaseMethod'
