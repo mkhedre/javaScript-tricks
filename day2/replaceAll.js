@@ -19,3 +19,13 @@ function replaceAll(mainText, target, repl) {
  * loop main >> word in main === target >> replace with repl
  * return main
  */
+function replaceAll(mainText, target, repl) {
+  return mainText.split(target).join(replacement);
+}
+
+function replaceAll(mainText, target, replacement) {
+  return mainText
+    .split(target)
+    .reduce((acc, part, i) => (i === 0 ? part : acc + replacement + part), '');
+}
+console.log(replaceAll('hello world', 'world', 'TypeScript'));
