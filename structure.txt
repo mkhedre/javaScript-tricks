@@ -1,0 +1,21 @@
+
+structure
+array-expression arrow-function assign-bitwise assign-logical assign-math assign-nullish assign-shift assign-ushift break catch chaining class const continue delete do-while else finally for for-in for-of func-expression func-expression-generator generator if label let object-expression operator-bitwise operator-conditional operator-in operator-instanceof operator-nullish operator-shift operator-strict operator-ushift rest spread super switch template throw try typeof update var void while with yield yield-delegate
+builtin
+BigInt Boolean Infinity Math NaN Number Proxy Symbol TSEnumDeclaration WeakMap WeakSet class class-method class-property decodeURI decodeURIComponent encodeURI encodeURIComponent eval isFinite isNaN parseFloat parseInt regexp regexp-literal undefined
+Array
+concat copyWithin entries every fill filter find findIndex forEach from includes indexOf isArray join keys lastIndexOf length map of pop push reduce reduceRight reverse shift slice some sort splice toLocaleString toString unshift values
+Date
+UTC getDate getDay getFullYear getHours getMilliseconds getMinutes getMonth getSeconds getTime getTimezoneOffset getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getYear now parse setDate setFullYear setHours setMilliseconds setMinutes setMonth setSeconds setTime setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds setYear toDateString toGMTString toISOString toJSON toLocaleDateString toLocaleFormat toLocaleString toLocaleTimeString toString toTimeString toUTCString valueOf
+Map
+clear delete entries forEach get has keys set size values
+Object
+assign create defineProperties defineProperty entries freeze fromEntries getOwnPropertyDescriptor getOwnPropertyDescriptors getOwnPropertyNames getOwnPropertySymbols getPrototypeOf hasOwnProperty is isExtensible isFrozen isPrototypeOf isSealed keys preventExtensions propertyIsEnumerable seal setPrototypeOf toLocaleString toString valueOf values
+Reflect
+apply construct defineProperty deleteProperty get getOwnPropertyDescriptor getPrototypeOf has isExtensible ownKeys preventExtensions set setPrototypeOf
+RegExp
+compile dotAll exec flags global hasIndices ignoreCase multiline source sticky test toString unicode
+Set
+add clear delete entries forEach has keys size values
+String
+@@iterator charAt charCodeAt codePointAt concat endsWith fromCharCode fromCodePoint includes indexOf lastIndexOf length localeCompare match matchAll normalize padEnd padStart raw repeat replace replaceAll search slice split startsWith substring toLocaleLowerCase toLocaleUpperCase toLowerCase toString toUpperCase trim trimEnd trimStart valueOf
