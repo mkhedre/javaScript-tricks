@@ -1,4 +1,4 @@
 function countOccurrences(mainStr, subStr) {
-  // your code here
-  return 0;
+  var re = new RegExp(subStr, 'ig');
+  return mainStr.match(re) ? mainStr.match(re).length : 0;
 }
